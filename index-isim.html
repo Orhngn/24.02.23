@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asked Name</title>
+</head>
+
+<body>
+    <h1> İsim Sorma Alıştırmaları</h1>
+
+
+
+    <label> isim :</label>
+    <input type="text" id="isim" style="border-radius: 12px; background-color: rgba(0, 255, 255, 0.215);">
+    <button type="button" onclick="isimYazdır()">İsmi Göster</button>
+    <p id="isimYaz">Lorem, ipsum.</p>
+
+
+
+
+    <script>
+
+        function isimYazdır() {
+            let name = document.getElementById('isim').value;
+            alert('benim adım : ' + name);
+            document.getElementById('isimYaz').innerHTML = name;
+            console.log(name);
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <h1>JavaScript Denemeleri</h1>
+    <p id="dene">Lorem, ipsum dolor.</p>
+
+    <button type="button" onclick="showMessage()">Mesajı Göster</button>
+    <button type="button" onclick="beniUyar()">Mesajı Göster</button>
+    <button type="button" onclick="beniUyar1()">Mesajı Göster1</button>
+
+    <script>
+        let a = 20;
+        let s = 15;
+        let d = 3;
+        console.log(d);
+        console.log('******');
+        console.log(a);
+        console.log('******');
+        d += 3;
+        console.log(d);
+
+
+        // fonksiyonlar yazımı nedeni vs.
+
+        function showMessage() {
+            alert('merhaba arkadaşlar');
+        }
+
+        // showMessage();
+
+        function beniUyar() {
+            let message = 'sayfa açıldı';
+            alert(message);
+        }
+        let uyari = 'iyi akşamlar';
+        let user = 'Ahmet';
+        function beniUyar1() {
+            let mesaj = uyari + ' ' + user;
+            alert(mesaj);
+        }
+
+
+    </script>
+</body>
+
+</html>
